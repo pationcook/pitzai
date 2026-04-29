@@ -1,0 +1,16 @@
+[project]
+name = "galaxy-multi-agent"
+version = "0.1.0"
+description = "ai project poetry tool"
+authors = [
+    {name = "pationcook@naver.com",email = "pationcook@naver.com"}
+]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.14"     # ← 이 부분이 핵심!
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
